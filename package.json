@@ -1,0 +1,40 @@
+{
+  "name": "world-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@types/datatables.net": "^1.10.24",
+    "@types/jquery": "^3.5.16",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.25.3",
+    "datatables.net-bs5": "^1.13.4",
+    "jquery": "^3.7.0",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@volar-plugins/vetur": "^2.0.0",
+    "babel-plugin-transform-util-promisify": "^0.2.2",
+    "eslint-config-prettier": "^8.5.0",
+    "nuxt-uikit": "^2.0.13",
+    "nuxt-webpack-optimisations": "^2.2.8",
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
+    "promisify": "^0.0.3",
+    "webpack": "^4.46.0"
+  }
+}

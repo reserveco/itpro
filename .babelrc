@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "transform-util-promisify"
+    ],
+    "presets": [
+      ["env", {
+        "targets": {
+          "node": "current"
+        }
+      }]
+    ]
+}
