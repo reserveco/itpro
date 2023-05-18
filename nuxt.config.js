@@ -49,7 +49,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // 'nuxt-vite',
-    'nuxt-webpack-optimisations',
+    // 'nuxt-webpack-optimisations',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     // https://www.npmjs.com/package/nuxt-uikit
